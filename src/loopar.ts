@@ -3,6 +3,8 @@
 
 // UPPGIFT 1: skriv ut talen 1 till 10, ett per rad, med en for-loop.
 
+import "./scope.ts";
+
 for (let i = 1; i <= 10; i++) {
   console.log(i);
 }
