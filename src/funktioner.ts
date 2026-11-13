@@ -78,7 +78,7 @@ export function upprepa(text: string, antal: number): string {
 // 9. En kvittorad. kvittorad("Kaffe", 2, 32) ger "2 x Kaffe: 64 kr".
 //    Använd formateraPris från uppgift 1.
 export function kvittorad(namn: string, antal: number, pris: number): string {
-  // TODO
+  return `${antal} x ${namn}: ${formateraPris(antal * pris)}`;
 }
 
 // 10. Pilfunktioner. Skriv dem själv med const och =>.
