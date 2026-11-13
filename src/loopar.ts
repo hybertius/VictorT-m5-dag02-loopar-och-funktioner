@@ -33,7 +33,14 @@ for (let i = 1; i <= 10; i++) {
 
 const prislista: number[] = [35, 32, 59, 45];
 const namnlista: string[] = ["Kardemummabulle", "Bryggkaffe", "Ostmacka", "Latte"];
-// TODO
+
+let summa = 0;
+for (const [index, namn] of namnlista.entries()) {
+  const pris = prislista[index];
+  console.log(`${namn}: ${pris} kr`);
+  summa += pris;
+}
+console.log(`Summa: ${summa} kr`);
 
 // UPPGIFT 5 (utmaning): skriv ut en multiplikationstabell för 3:ans tabell,
 //            "3 x 1 = 3" till "3 x 10 = 30".
