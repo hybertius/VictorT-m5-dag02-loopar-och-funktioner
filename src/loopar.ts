@@ -44,3 +44,6 @@ console.log(`Summa: ${summa} kr`);
 
 // UPPGIFT 5 (utmaning): skriv ut en multiplikationstabell för 3:ans tabell,
 //            "3 x 1 = 3" till "3 x 10 = 30".
+for (let i = 1; i <= 10; i++) {
+  console.log(`3 x ${i} = ${3 * i}`);
+}
